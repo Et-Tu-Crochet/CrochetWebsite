@@ -1,13 +1,13 @@
-/*body{
-    background: #f4f4f4;   
-}
 
-body h1{
-    margin: auto;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.7;
     padding: 0;
-    float: inline-start;
+    margin: 0;
+    background-color: #f4f4f4;
+    
 }
-
 .larger-image{
     width: 1510px;
     height: 400px;
@@ -27,87 +27,7 @@ body h1{
     
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-
 }
-header{
-    background: #967B7B;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #967B7B 3px solid; 
-}
-
-header a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 10px;
-    background-color: #808080;
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black; 
-}
-
-button{
-  background-color: #808080;
-
-}
-header h1{
-    text-align: center;
-    font-size: 500%;
-    text-align: center;
-    height: 100%;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px; 
-}
-
-header nav{
-    float: right;
-
-}
-
-header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20 px;
-}
-
-header .highlight, header .current a{
-    font-weight: bold;
-}
-
-header a:hover{
-    color: #cccccc;
-    font-weight: bold;
-}
-
-#option h1{
-    margin-top: 65px;
-    font-size: 55px;
-    margin-bottom: 10px;
-    text-align: center; 
-}
-
-.section{
-text-align: center;
-padding: 50px, 80px;
-}
-
-.section-light{
-background-color: goldenrod;
-color:rgb(97, 96, 96);
-}
-*/
-
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    line-height: 1.7;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-    
-}
-
 .container{
     /*display: grid;
     grid-template-columns: 10% 60% 20% 10%;
@@ -239,7 +159,22 @@ header a:hover{
     width: 40%;
     
 }
+#option h1{
+    margin-top: 65px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
 
+.section{
+text-align: center;
+padding: 50px, 80px;
+}
+
+.section-light{
+background-color: goldenrod;
+color:rgb(97, 96, 96);
+}
 footer{
     padding: 20px;
     margin-top: 20px;
